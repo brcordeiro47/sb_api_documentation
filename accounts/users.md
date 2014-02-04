@@ -35,27 +35,27 @@ Receive a list of all users.
 
 ```json
 {
-    'total_results': 4,
-    'user_list': [
+    "total_results": 4,
+    "user_list": [
         {
-            'email': 'bgcreative@mail.com',
-            'id': 1886,
-            'name': 'bruno'
+            "email": "bgcreative@mail.com",
+            "id": 1886,
+            "name": "bruno"
         },
         {
-            'email': 'dfdfd@sdsd.com',
-            'id': 4328,
-            'name': 'bruno'
+            "email": "dfdfd@sdsd.com",
+            "id": 4328,
+            "name": "bruno"
         },
         {
-            'email': 'sdfsf@ddfsdf.com',
-            'id': 4330,
-            'name': 'bruno'
+            "email": "sdfsf@ddfsdf.com",
+            "id": 4330,
+            "name": "bruno"
         },
         {
-            'email': 'have.host@yahoo.com.br',
-            'id': 4422,
-            'name': 'bruno'
+            "email": "have.host@yahoo.com.br",
+            "id": 4422,
+            "name": "bruno"
         }
     ]
 }
@@ -75,12 +75,12 @@ Receive a single user. If there is not a user with the id, it will return a `500
 
 ```json
 {
-    'total_results': 1,
-    'user_list': [
+    "total_results": 1,
+    "user_list": [
         {
-            'email': 'have.host@yahoo.com.br',
-            'id': 4422,
-            'name': 'bruno'
+            "email": "have.host@yahoo.com.br",
+            "id": 4422,
+            "name": "bruno"
         }
     ]
 }

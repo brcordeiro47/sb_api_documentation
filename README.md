@@ -79,7 +79,7 @@ If Site Blindado is having trouble, you might see a 5xx error. `500` means that 
 API resources
 -----------------
 
-* [Users](https://github.com/brcordeiro47/sb_api_documentation/accounts/users.md)
+* [Users](https://github.com/brcordeiro47/sb_api_documentation/blob/master/accounts/users.md)
 
 
 API Version History
@@ -92,7 +92,7 @@ Next things to do
 ----------------------
 
 Currently working on
---------------------------
+-----------------
 
 * General: Make a better response for specific get requests.
 * General: Make a better response when a specific get request fails.
@@ -101,7 +101,7 @@ Currently working on
 * Users: Add POST, PUT and DELETE methods.
 
 Future works
---------------------------
+----------------
 
 * General: Add support for more modules other than users.
 * General: Add support for client permissions.
