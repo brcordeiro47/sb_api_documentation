@@ -84,6 +84,12 @@ API resources
 * [Users](https://github.com/brcordeiro47/sb_api_documentation/accounts/user.md)
 
 
+API Version History
+----------------------
+
+* 04/02/2014 - Version 0.1 - Initial commit. Adding 403, 404 and 500 handlers. Adding basic user lookout.
+
+
 Help us make it better
 ----------------------
 
