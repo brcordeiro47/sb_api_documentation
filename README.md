@@ -86,13 +86,13 @@ API Version History
 ----------------------
 
 * 04/02/2014 - Version 0.1 - Initial commit. Adding 403, 404 and 500 handlers. Adding basic user lookout.
+* 04/02/2014 - Version 0.1a - Adding 415 view for header errors.
 
 
 Next things to do
 ----------------------
 
-Currently working on
------------------
+### Currently working on
 
 * General: Make a better response for specific get requests.
 * General: Make a better response when a specific get request fails.
@@ -100,8 +100,7 @@ Currently working on
 * Users: Add more options to filter.
 * Users: Add POST, PUT and DELETE methods.
 
-Future works
-----------------
+### Future works
 
 * General: Add support for more modules other than users.
 * General: Add support for client permissions.
