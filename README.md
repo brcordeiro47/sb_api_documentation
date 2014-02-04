@@ -34,8 +34,6 @@ Authentication
 
 We follow the OAuth 2 framework for letting users authorize your application to use our API on their behalf. Quite briefly, when a user register as a partner you will obtain an access token (a secret string denoting your rights over his store), which you have to include in the header of every request (as shown in the above example).
 
-Read the [authentication guide](TODO) to get started.
-
 
 Just JSON
 -----------------
@@ -81,7 +79,7 @@ If Site Blindado is having trouble, you might see a 5xx error. `500` means that 
 API resources
 -----------------
 
-* [Users](https://github.com/brcordeiro47/sb_api_documentation/accounts/user.md)
+* [Users](https://github.com/brcordeiro47/sb_api_documentation/accounts/users.md)
 
 
 API Version History
@@ -89,6 +87,27 @@ API Version History
 
 * 04/02/2014 - Version 0.1 - Initial commit. Adding 403, 404 and 500 handlers. Adding basic user lookout.
 
+
+Next things to do
+----------------------
+
+Currently working on
+--------------------------
+
+* General: Make a better response for specific get requests.
+* General: Make a better response when a specific get request fails.
+* Users: Return more fields in response.
+* Users: Add more options to filter.
+* Users: Add POST, PUT and DELETE methods.
+
+Future works
+--------------------------
+
+* General: Add support for more modules other than users.
+* General: Add support for client permissions.
+* General: Add specific authentication module with time-based session tokens.
+* General: Add support for xml requests/response.
+* General: Add support for multi language response.
 
 Help us make it better
 ----------------------
